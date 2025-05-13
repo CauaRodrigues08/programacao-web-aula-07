@@ -1,8 +1,8 @@
-// routes/users.js
+
 const express = require('express');
 const router = express.Router();
 
-router.get('/', (req, res) => {
+router.get('/users', (req, res) => {
   res.send('<h1>/users</h1>');
 });
 
